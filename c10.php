@@ -89,10 +89,24 @@ for ($i = 10; $i < 50; $i++) {
 	$broj = $broj + $i;
 	 // $broj += $i;
 	
-	}
+}
 	
 	echo $broj;
 
+	echo "<br>";
+
+
+
+$niza = array ();
+
+for ($i=10; $i < 20; $i++) {
+
+	$niza [] = $i;
+
+	}
+
+	
+	print_r($niza);
 
 ?>
 
